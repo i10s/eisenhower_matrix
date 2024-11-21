@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "eisenhower-matrix"
+version = "0.1.0"
+description = "An interactive Eisenhower Matrix web app."
+authors = ["Inaki <inaki@ifuentes.net>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.0"
+flask-socketio = "^5.4.1"
+eventlet = "^0.38.0"
+openai = "^1.55.0"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
